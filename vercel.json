@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.html",           "use": "@vercel/static" },
+    { "src": "landing.html",         "use": "@vercel/static" },
+    { "src": "sw.js",                "use": "@vercel/static" },
+    { "src": "manifest.json",        "use": "@vercel/static" },
+    { "src": "apple-touch-icon.png", "use": "@vercel/static" },
+    { "src": "icon-192.png",         "use": "@vercel/static" },
+    { "src": "icon-512.png",         "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/landing", "dest": "/landing.html" },
+    { "src": "/",        "dest": "/index.html"   }
+  ]
+}
