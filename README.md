@@ -46,26 +46,6 @@ vercel
 vercel --prod
 ```
 
-## Subir a GitHub
-
-```bash
-# 1. Inicializar repositorio
-git init
-
-# 2. Añadir todos los archivos
-git add .
-
-# 3. Primer commit
-git commit -m "feat: MindLearn LMS - plataforma e-learning psicología"
-
-# 4. Crear repo en GitHub (desde github.com) y conectarlo
-git remote add origin https://github.com/TU_USUARIO/mindlearn.git
-
-# 5. Subir
-git branch -M main
-git push -u origin main
-```
-
 ## Accesos de demostración
 
 | Rol           | Email                    | Contraseña  |
